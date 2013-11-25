@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the piechart package.
+      google.load('visualization', '1.0', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Location');
+        data.addColumn('number', 'Population');
+        data.addRows([
+          ['Gainesville, Florida', 3023],
+          ['Jacksonville, Florida', 2056],
+		  ['Orlando,Florida',1089],
+          ['Chicago,  Illinois', 1489],
+          ['San Franciso,California', 934],
+          ['NYC, New York', 978]
+        ]);
+
+        // Set chart options
+        var options = {'title':'AlumniMap of Gator Nation',
+                       'width':1000,
+                       'height':700,
+					   'colors':['#ff2400','#e84803','#F28250','#ec8f6e','#f3b49f','#f6c7b6'],
+					   'is3D':true};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
+        chart.draw(data, options);
+      }
+     /*****************************************************************/
+	 google.setOnLoadCallback(drawChart1);
+	 function drawChart1() {
+
+        // Create the data table.
+        var data = google.visualization.arrayToDataTable([
+          ['Workplace', 'Number'],
+          ['Gainesville,FL', 83], ['Ocala,FL', 53], ['Miami,FL', 44],
+          ['Orlando,FL', 63], ['Jacksonville,FL', 86], ['Palm Beach,FL', 30],
+          ['San Jose,CA', 38], ['Los Angeles,CA', 5.5], ['Santa Clara,CA', 5],
+          ['San Diego,CA', 20], ['Austin,TX', 33], ['Alachua,FL', 1.5],
+          ['Palm Bay,FL', 72], ['Jupiter,FL', 2.9], ['Sacramento,CA', 33],
+          ['Napa,CA', 29], ['Orange,CA', 0.01], ['Palo Alto,CA', 6.5],
+          ['Dallas,TX', 2.5]]);
+
+
+        // Set chart options
+        var options = {'title':'Workplace of Gator Nation',
+					   'legend':'none',
+                       'width':1000,
+                       'height':700,
+					   'slices': {  4: {offset: 0.2},
+                                    5: {offset: 0.3},
+                                    7: {offset: 0.4},
+                                    8: {offset: 0.5},
+                                 }
+						};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div2'));
+        chart.draw(data, options);
+      }
+	  /***************************************************************/
+	 google.setOnLoadCallback(drawChart2);	
+	  function drawChart2() {
+	  var data = google.visualization.arrayToDataTable([
+          ['Place', 'Male', 'Female'],
+          ['Gainesville',  1000,      900],
+          ['Orlando',  2170,      1860],
+          ['Ocala',  1060,       1120],
+          ['Miami',  3030,      3540],
+		  ['Jacksonville',2500,2440]
+        ]);
+
+        var options = {
+          'title': 'Gender Distribution',
+          'vAxis': {title: 'Place'},
+		  'hAxis': {title: 'Population /thousand'},
+		  'colors': ['blue','red']
+        };
+	  
+	    var chart = new google.visualization.BarChart(document.getElementById('chart_div3'));
+        chart.draw(data, options);
+	  }
+	  /**************************************************************/
+	 google.setOnLoadCallback(drawChart3);
+    function drawChart3() {
+	 var data = google.visualization.arrayToDataTable([
+          ['Place',       'Single', 'Married',     'In relationship', 'Average'],
+          ['Gainesville',   938,         922,             998,            914.6],
+          ['Orlando',      2120,	    2099,             2268,           1982],
+          ['Ocala',        1167,        1587,             807,            1023],
+          ['Miami',        2110,        2615,             1968,           2119.4],
+          ['Jacksonville',        991,         829,       1026,           769.6]
+        ]);
+
+        var options = {
+          title : 'Monthly Coffee Production by Country',
+          vAxis: {title: "Cups"},
+          hAxis: {title: "Month"},
+          seriesType: "bars",
+          series: {3: {type: "line"}}
+        };
+	  
+	    var chart = new google.visualization.ComboChart(document.getElementById('chart_div4'));
+        chart.draw(data, options);
+	  }
+       /***************************************************************/
+		google.setOnLoadCallback(drawChart4);
+	function drawChart4() {
+	
+		var data = google.visualization.arrayToDataTable([
+          ['ID',     'Age',           'Position', 'Status',     'Population'],
+          ['GY ',    25,           2.0,      'Young',  3373],
+          ['JY',    25,          1.5,      'Young',         8190],
+          ['Oo',    25,               1.84,      'Old',         5523],
+          ['JM',    40,              2.78,      'Middle',    79716],
+          ['Jo',    50,              2,         'Old',         61801],
+          ['GM',    40,              1.7,       'Middle',    73137],
+          ['OM',    50,              4.77,      'Old',    31090],
+          ['OY',    30,              2.96,      'Young',    74856],
+          ['CM',    55,               1.54,      'Old',         14185],
+          ['CY',    25,              2.05,      'Young',  30700]
+        ]);
+
+        var options = {
+          title: 'Correlation between life expectancy, fertility rate and population of some world countries (2010)',
+          hAxis: {title: 'Life Expectancy'},
+          vAxis: {title: 'Fertility Rate'},
+          bubble: {textStyle: {fontSize: 11}}
+        };
+
+		var chart = new google.visualization.BubbleChart(document.getElementById('chart_div5'));
+        chart.draw(data, options);
+	}
+	/****************************************************/
+    google.setOnLoadCallback(drawChart5);	
+	  function drawChart5() {
+	  var data = google.visualization.arrayToDataTable([
+          ['Place', 'Bachelor', 'Master','PhD'],
+          ['Gainesville',  2000,      1000,400],
+          ['Orlando',  3170,      1860,300],
+          ['Ocala',  2060,       1120,20],
+          ['Miami',  4030,      3540,200],
+		  ['Jacksonville',3500,2440,100]
+        ]);
+
+        var options = {
+          'title': 'Gender Distribution',
+          'vAxis': {title: 'Place'},
+		  'hAxis': {title: 'Population'},
+		  'colors': ['#53D248','#C0DB4C','#DB5F29']
+        };
+	  
+	    var chart = new google.visualization.BarChart(document.getElementById('chart_div6'));
+        chart.draw(data, options);
+	  }
+	/*****************************************************/
+   google.load('visualization', '1', {'packages': ['geochart']});
+   google.setOnLoadCallback(drawChart6);
+   function drawChart6() {
+      var data = google.visualization.arrayToDataTable([
+        ['City',   'Alumni population', 'Area'],
+        ['Gainesville',      2761477,    12500.31],
+        ['Jacksonville',     1324110,    18100.76],
+        ['Ocala',    159574,     11700.27],
+		 ['New York', 200132,20000],
+        ['Boston', 300131,20000],
+        ['Miami', 400123,12100],
+        ['Chicago', 50000,12310],
+        ['Los Angeles', 60000,22300],
+        ['Houston', 700000,22300]
+      ]);
+
+      var options = {
+		'title':'uf',
+        region: 'US',
+        displayMode: 'markers',
+        colorAxis: {colors: ['orange', 'blue']}
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div7'));
+      chart.draw(data, options);
+    }
+
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div align = "center"><font size="5">Current Location of UF Alumni</font><div id="chart_div1"></div></div>
+	<div align = "center"><font size="5">Work Place of UF Alumni</font><div id="chart_div2"></div></div>
+	<div align = "center"><font size="5">
+    Gender Distribution of UF Alumni in Florida</font><div id="chart_div3" style="width: 1000px; height: 700px;"></div></div>
+	<div align = "center"><font size="5">Relations of UF Alumni in Florida</font>
+	<div id="chart_div4" style="width: 900px; height: 500px;"></div></div>
+	<div align = "center"><font size="5">Age distribution of UF Alumni</font>
+	<div id="chart_div5" style="width: 900px; height: 500px;"></div></div>
+	<div align = "center"><font size="5">Degree distribution of UF Alumni</font>
+	<div id="chart_div6" style="width: 900px; height: 500px;"></div></div>
+	<div align = "center"><font size="5">Time-Zone based UF Alumni distribution</font>
+	<div id="chart_div7" style="width: 900px; height: 500px;"></div></div>
+  </body>
+</html>
