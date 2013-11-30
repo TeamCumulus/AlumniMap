@@ -1,7 +1,10 @@
 package com.cumulus.collection;
 
+import au.com.bytecode.opencsv.CSVWriter;
 import com.gargoylesoftware.htmlunit.WebClient;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -30,13 +33,13 @@ public class Controller {
         seed.login();
     }
 
-    public void start() {
+    public Controller start() {
         cur_lev.add(seed);
         visited.put(seed.getId(), seed);
         List<Task> tasks = new ArrayList<Task>();
-        while (idx_lev-->0) {
+        while (--idx_lev>=0) {
             for (User f : cur_lev) {
-                tasks.add(new Task(f, next_lev, visited, client, lock));
+                tasks.add(new Task(f, next_lev, visited, client, lock, idx_lev==0));
             }
             try {
                 if (tasks.size() > 0) {
@@ -46,13 +49,28 @@ public class Controller {
                 e.printStackTrace();
             }
             tasks.clear();
-            cur_lev.clear();
-            cur_lev.addAll(next_lev);
-            next_lev.clear();
+            cur_lev = next_lev;
+            next_lev = new LinkedList<User>();
         }
 
         if (seed.isLogin()) {
             seed.logout();
+        }
+
+        return this;
+    }
+
+    public void writeCSV(String path) {
+        CSVWriter csvWriter = null;
+        try {
+            csvWriter = new CSVWriter(new FileWriter(path));
+            csvWriter.writeNext("ID,Location,Gender,Relation,Degree,UF".split(","));
+            for (User user: visited.values()) {
+                csvWriter.writeNext(user.toCSVRow());
+            }
+            csvWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

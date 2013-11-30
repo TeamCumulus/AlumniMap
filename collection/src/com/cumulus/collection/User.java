@@ -29,7 +29,7 @@ public class User {
 
     public void addExperience(String name, String homepage, ArrayList<String> details) {
         experiences.add(new Experience(name, homepage));
-        experiences.get(experiences.size()-1).details = details;
+        experiences.get(experiences.size() - 1).details = details;
     }
 
     public void addInfo(String key, String val) {
@@ -38,11 +38,11 @@ public class User {
 
     public void setHomepage(String homepage) {
         int idx = homepage.lastIndexOf('?');  // index of question mark which follows POST data
-        if (idx!=-1) {
+        if (idx != -1) {
             String _homepage = homepage.substring(0, idx);
             if (_homepage.endsWith("profile.php")) {
                 int _idx = homepage.indexOf('&', idx);
-                if (_idx!=-1) {
+                if (_idx != -1) {
                     homepage = homepage.substring(0, _idx);
                 }
             } else {
@@ -52,8 +52,8 @@ public class User {
         this.homepage = homepage;
 
         // set id as well (only for printing usage)
-        this.id = homepage.lastIndexOf('?')!=-1?
-                homepage.substring(homepage.indexOf('=', idx)+1) : homepage.substring(homepage.lastIndexOf('/')+1);
+        this.id = homepage.lastIndexOf('?') != -1 ?
+                homepage.substring(homepage.indexOf('=', idx) + 1) : homepage.substring(homepage.lastIndexOf('/') + 1);
     }
 
     public void setName(String name) {
@@ -68,6 +68,10 @@ public class User {
         return name;
     }
 
+    public String getInfo(String key) {
+        return infos.get(key);
+    }
+
     public String getHomepage() {
         return homepage;
     }
@@ -76,17 +80,13 @@ public class User {
     public String getTab(String tab) {
         String ret = getHomepage();
 
-        if (homepage.indexOf('?')!=-1) {
+        if (homepage.indexOf('?') != -1) {
             ret += "&sk=";
         } else {
             ret += '/';
         }
         ret += tab.toLowerCase();
         return ret;
-    }
-
-    public int hashCode() {
-        return homepage.hashCode();
     }
 
     @Override
@@ -98,6 +98,33 @@ public class User {
                 ", experiences=" + experiences +
                 ", infos=" + infos +
                 '}';
+    }
+
+    public String[] toCSVRow() {
+        // ID,Location,Gender,Relation,Degree,UF
+        String[] ret = new String[6];
+        ret[0] = getId();
+        String valCurCity = getInfo("Current City");
+        ret[1] = valCurCity != null ? valCurCity : "";
+        String valGender = getInfo("Gender");
+        ret[2] = valGender != null? (valGender.equals("Male")?"0":"1") : "";
+        String valRel = getInfo("Relationship Status");
+        ret[3] = valRel != null? (valRel.equals("Single")?"0":"1") : "";
+        if (experiences.size()==0) {
+            ret[4] = ret[5] = "";
+        } else {
+            ret[5] = "0";
+            ret[4] = "-1";
+            for (Experience exp: experiences) {
+                if (exp.name.toLowerCase().contains("university")) {
+                    ret[4] = String.valueOf(Integer.parseInt(ret[4])+1);
+                    if (exp.name.equals("University of Florida")) {
+                        ret[5] = "1";
+                    }
+                }
+            }
+        }
+        return ret;
     }
 
     private class Experience {
