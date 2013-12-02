@@ -12,10 +12,12 @@ public class AgeMR {
 		
 		@Override
 		public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-			String[] str=value.toString().split("*");
-			if(!"".equals(str[1]) && !"".equals(str[4])){
-				IntWritable flag=new IntWritable(Integer.parseInt(str[4]));
-				context.write(new Text(str[1]), flag);
+			String[] str=value.toString().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+			String location=str[1].substring(1,str[1].length()-1);
+			String age=str[4].substring(1,str[4].length()-1);
+			if(!"".equals(location) && !"".equals(age)){
+				IntWritable flag=new IntWritable(Integer.parseInt(age));
+				context.write(new Text(location), flag);
 			}
 		}
 	}

@@ -11,10 +11,12 @@ public class TimezoneMR {
 		 
         @Override
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-        	String[] str=value.toString().split("*");
-        	if(!"".equals(str[1]) && !"".equals(str[8])){
+        	String[] str=value.toString().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+			String timezone=str[8].substring(1,str[8].length()-1);
+			String uf=str[6].substring(1,str[6].length()-1);
+        	if(!"".equals(timezone) && "1".equals(uf)){
         		IntWritable flag=new IntWritable(1);
-                context.write(new Text(str[1]), flag);
+                context.write(new Text(timezone), flag);
         	}
         }
     }

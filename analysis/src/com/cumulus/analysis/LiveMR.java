@@ -6,37 +6,39 @@ import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.*;
 
-public class WorkMR {
-	public static class WorkMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
-		 
-        @Override
+public class LiveMR {
+	public static class LiveMapper extends Mapper<LongWritable, Text, Text, IntWritable>{
+		
+		@Override
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-        	String[] str=value.toString().split("*");
-        	if(!"".equals(str[1]) && !"".equals(str[7])){
-        		IntWritable flag=new IntWritable(1);
-                context.write(new Text(str[1]), flag);
-        	}
-        }
+			String[] str=value.toString().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+			String location=str[1].substring(1,str[1].length()-1);
+			String uf=str[6].substring(1,str[6].length()-1);
+			if(!"".equals(location) && "1".equals(uf)){
+				IntWritable flag=new IntWritable(1);
+	            context.write(new Text(location), flag);
+			}
+		}
 	}
-	public static class WorkReducer extends Reducer<Text, IntWritable, Text, Text> {
-		 
-        @Override
+	public static class LiveReducer extends Reducer<Text, IntWritable, Text, Text> {
+		
+		@Override
         public void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException{
-        	int count=0;
-            for(IntWritable val:values){
-                count+=val.get();
-            }
-            context.write(key, new Text(String.valueOf(count)));
-        }
+			int count=0;
+			for(IntWritable val:values){
+				count+=val.get();
+			}
+			context.write(key, new Text(String.valueOf(count)));
+		}
 	}
 	public static void main(String[] args) throws Exception{
         Configuration conf = new Configuration();
-        Job job = new Job(conf, "WorkMR");
-        job.setJarByClass(WorkMR.class);
+        Job job = new Job(conf, "LiveMR");
+        job.setJarByClass(LiveMR.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
-        job.setMapperClass(WorkMapper.class);
-        job.setReducerClass(WorkReducer.class);
+        job.setMapperClass(LiveMapper.class);
+        job.setReducerClass(LiveReducer.class);
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
         FileInputFormat.addInputPath(job, new Path(args[0]));

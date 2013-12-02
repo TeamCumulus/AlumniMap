@@ -11,10 +11,12 @@ public class GenderMR {
 
 		@Override
 		public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-			String[] str=value.toString().split("*");
-			if(!"".equals(str[1]) && !"".equals(str[2])){
-				IntWritable flag=new IntWritable(Integer.parseInt(str[2]));
-				context.write(new Text(str[1]), flag);
+			String[] str=value.toString().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+			String location=str[1].substring(1,str[1].length()-1);
+			String gender=str[2].substring(1,str[2].length()-1);
+			if(!"".equals(location) && !"".equals(gender)){
+				IntWritable flag=new IntWritable(Integer.parseInt(gender));
+				context.write(new Text(location), flag);
 			}
 		}
 	}

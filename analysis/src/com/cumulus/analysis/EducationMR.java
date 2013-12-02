@@ -11,10 +11,12 @@ public class EducationMR {
 		
 		@Override
 		public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-			String[] str=value.toString().split("*");
-			if(!"".equals(str[1]) && !"".equals(str[5])){
-				IntWritable flag=new IntWritable(Integer.parseInt(str[5]));
-	            context.write(new Text(str[1]), flag);
+			String[] str=value.toString().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
+			String location=str[1].substring(1,str[1].length()-1);
+			String education=str[5].substring(1,str[5].length()-1);
+			if(!"".equals(location) && !"".equals(education)){
+				IntWritable flag=new IntWritable(Integer.parseInt(education));
+	            context.write(new Text(location), flag);
 			}
 		}
 	}
