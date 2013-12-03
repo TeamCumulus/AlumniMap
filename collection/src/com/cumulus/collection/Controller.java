@@ -9,8 +9,6 @@ import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-//import com.gargoylesoftware.htmlunit.NicelyResynchronizingAjaxController;
-
 public class Controller {
     private List<User> cur_lev;
     private List<User> next_lev;
@@ -64,9 +62,10 @@ public class Controller {
         CSVWriter csvWriter = null;
         try {
             csvWriter = new CSVWriter(new FileWriter(path));
-            csvWriter.writeNext("ID,Location,Gender,Relation,Degree,UF".split(","));
+            csvWriter.writeNext("ID,Location,Gender,Relation,Age,Degree,UF,Hometown,Timezone,FriendCnt".split(","));
             for (User user: visited.values()) {
-                csvWriter.writeNext(user.toCSVRow());
+                String[] row = (String[]) user.toCSVRow();
+                csvWriter.writeNext(row);
             }
             csvWriter.close();
         } catch (IOException e) {

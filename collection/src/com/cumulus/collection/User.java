@@ -1,9 +1,6 @@
 package com.cumulus.collection;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class User {
     private String name;
@@ -100,30 +97,38 @@ public class User {
                 '}';
     }
 
-    public String[] toCSVRow() {
-        // ID,Location,Gender,Relation,Degree,UF
-        String[] ret = new String[6];
+    public Object[] toCSVRow() {
+        // ID,Location,Gender,Relation,Age,Degree,UF,Hometown,Timezone,FriendCnt
+        String[] ret = new String[10];
         ret[0] = getId();
         String valCurCity = getInfo("Current City");
         ret[1] = valCurCity != null ? valCurCity : "";
         String valGender = getInfo("Gender");
-        ret[2] = valGender != null? (valGender.equals("Male")?"0":"1") : "";
+        ret[2] = valGender != null ? (valGender.equals("Male") ? "0" : "1") : "";
         String valRel = getInfo("Relationship Status");
-        ret[3] = valRel != null? (valRel.equals("Single")?"0":"1") : "";
-        if (experiences.size()==0) {
-            ret[4] = ret[5] = "";
+        ret[3] = valRel != null ? (valRel.equals("Single") ? "0" : "1") : "";
+        String valBDay = getInfo("Birthday");
+        ret[4] = valBDay != null ? (
+                valBDay.indexOf(',') != -1 ?
+                        String.valueOf(Calendar.getInstance().get(Calendar.YEAR) -
+                                Integer.parseInt(valBDay.substring(valBDay.indexOf(',') + 2))) : "") : "";
+        if (experiences.size() == 0) {
+            ret[5] = ret[6] = "";
         } else {
-            ret[5] = "0";
-            ret[4] = "-1";
-            for (Experience exp: experiences) {
+            ret[5] = "-1";
+            ret[6] = "0";
+            for (Experience exp : experiences) {
                 if (exp.name.toLowerCase().contains("university")) {
-                    ret[4] = String.valueOf(Integer.parseInt(ret[4])+1);
+                    ret[5] = String.valueOf(Integer.parseInt(ret[5]) + 1);
                     if (exp.name.equals("University of Florida")) {
-                        ret[5] = "1";
+                        ret[6] = "1";
                     }
                 }
             }
         }
+        String valHometown = getInfo("Hometown");
+        ret[7] = valHometown != null ? valHometown : "";
+        ret[8] = ret[9] = "";
         return ret;
     }
 
