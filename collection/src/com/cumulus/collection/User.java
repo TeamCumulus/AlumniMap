@@ -17,13 +17,6 @@ public class User {
         infos = new HashMap<String, String>();
     }
 
-    public User() {
-        name = null;
-        homepage = null;
-        experiences = new ArrayList<Experience>();
-        infos = new HashMap<String, String>();
-    }
-
     public void addExperience(String name, String homepage, ArrayList<String> details) {
         experiences.add(new Experience(name, homepage));
         experiences.get(experiences.size() - 1).details = details;
@@ -53,10 +46,6 @@ public class User {
                 homepage.substring(homepage.indexOf('=', idx) + 1) : homepage.substring(homepage.lastIndexOf('/') + 1);
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getId() {
         return id;
     }
@@ -69,13 +58,9 @@ public class User {
         return infos.get(key);
     }
 
-    public String getHomepage() {
-        return homepage;
-    }
-
     // tab could be "friends", "about" or so
     public String getTab(String tab) {
-        String ret = getHomepage();
+        String ret = new String(homepage);
 
         if (homepage.indexOf('?') != -1) {
             ret += "&sk=";
@@ -97,7 +82,7 @@ public class User {
                 '}';
     }
 
-    public Object[] toCSVRow() {
+    public String[] toCSVRow() {
         // ID,Location,Gender,Relation,Age,Degree,UF,Hometown,Timezone,FriendCnt
         String[] ret = new String[10];
         ret[0] = getId();

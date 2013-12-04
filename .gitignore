@@ -1,6 +1,7 @@
 *.class
 *.log
 *.csv
+out/*
 
 # IDEA IntelliJ
 .idea
