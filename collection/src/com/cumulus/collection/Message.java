@@ -45,6 +45,6 @@ public class Message {
     public static class TerminateDoneMsg {
     }
 
-    public static class ReachMsg {
+    public static class BufferFullMsg {
     }
 }

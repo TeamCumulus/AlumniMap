@@ -22,10 +22,10 @@ public class Master extends UntypedActor {
     private final int NUM_RESULTS;  // in unit of buffer size
     private final ActorRef ROUTER;
 
-    public Master(int nWorkers, int nResults, String email, String password, final int BUFFER_SIZE, final int MAX_LEV, final String PATH) {
+    public Master(int nWorkers, int nResults, int szBuffer, int nLevels, String path, String email, String password) {
         NUM_WORKERS = nWorkers;
         NUM_RESULTS = nResults;
-        ROUTER = getContext().actorOf(Props.create(Worker.class, BUFFER_SIZE, MAX_LEV, PATH)
+        ROUTER = getContext().actorOf(Props.create(Worker.class, szBuffer, nLevels, path)
                 .withRouter(new ConsistentHashingRouter(NUM_WORKERS).withHashMapper(new ConsistentHashingRouter.ConsistentHashMapper() {
                     @Override
                     public Object hashKey(Object message) {
@@ -51,7 +51,7 @@ public class Master extends UntypedActor {
             if (++nTermDone == NUM_WORKERS) {
                 getContext().system().shutdown();
             }
-        } else if (message instanceof ReachMsg) {
+        } else if (message instanceof BufferFullMsg) {
             if (++nReach == NUM_RESULTS) {
                 System.out.println("Reach!!!");
 //                getContext().system().shutdown();
