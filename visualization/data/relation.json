@@ -1,0 +1,3879 @@
+{
+    "cols": [
+        {
+            "label": "location",
+            "type": "string"
+        },
+        {
+            "label": "single",
+            "type": "number"
+        },
+        {
+            "label": "couple",
+            "type": "number"
+        }
+    ],
+    "rows": [
+        {
+            "c": [
+                {
+                    "v": "Adachi-ku, Tokyo, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Agawa-gun, Kochi, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Altamonte Springs, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ames, Iowa"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Amherst, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ann Arbor, Michigan"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 5
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Arlington, Texas"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Arlington, Virginia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Armonk, New York"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ashburn, Virginia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ashiya-shi, Hyogo, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Atlanta, Georgia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Auckland, New Zealand"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Austin, Texas"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bac Ninh"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bak Nin, Bắc Ninh, Vietnam"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Baltimore, Maryland"
+                },
+                {
+                    "v": 5
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bangalore, India"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bangkok, Thailand"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Beaverton, Oregon"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Beijing"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Beijing, China"
+                },
+                {
+                    "v": 22
+                },
+                {
+                    "v": 8
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bellevue, Washington"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Beppu-shi, Oita, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Berkeley, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bethlehem, Pennsylvania"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Binghamton, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Birmingham, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Blacksburg, Virginia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bloomington, Indiana"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Boston, Massachusetts"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bowling Green, Ohio"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Boynton Beach, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bridgewater, New Jersey"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Brisbane, Queensland, Australia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bristol, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Brooklyn, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Bucharest, Romania"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Buffalo, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Buies Creek, North Carolina"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Burnaby, British Columbia"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Busan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Calgary, Alberta"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cambridge, Cambridgeshire"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cambridge, Massachusetts"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Canadian, Texas"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cancún, Quintana Roo"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Champaign, Illinois"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chang Hwa, T'Ai-Wan, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Changchun, China"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Changhua"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Changshan, Hunan, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chapel Hill, North Carolina"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chard, Somerset"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Charlotte, North Carolina"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Charlottesville, Virginia"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chengdu Shi, Sichuan, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chengdu, Sichuan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chennai, Tamil Nadu"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chiai, T'Ai-Wan, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chicago, Illinois"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Chuo-ku, Tokyo, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cincinnati, Ohio"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cipolletti"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cleveland, Ohio"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "College Park, Maryland"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "College Station, Texas"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Colorado Springs, Colorado"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Columbia, Missouri"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Columbia, South Carolina"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Columbus, Ohio"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Coral Springs, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Coventry, United Kingdom"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Cupertino, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Da Nang, Vietnam"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Dalian, China"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Dallas, Texas"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Daqing, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Davis, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Deerfield Beach, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Delft"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Detroit, Michigan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Durham, Durham"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Durham, North Carolina"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "East Lansing, Michigan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Echi District"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Edinburgh, United Kingdom"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 5
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Edmonton, Alberta"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Eindhoven, Noord-Brabant"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Evanston, Illinois"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fairhope, Alabama"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Foley, Alabama"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fort Worth, Texas"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Frederick, Maryland"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fremont, California"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fresh Meadows, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fujinomiya-shi, Shizuoka, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Fukuoka-shi, Fukuoka, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Funabashi-shi, Chiba, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Gainesville, Florida"
+                },
+                {
+                    "v": 75
+                },
+                {
+                    "v": 69
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Geneva, Switzerland"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Gilbertown, Alabama"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Glasgow, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Greenbelt, Maryland"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hai Duong"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hai Phong, Vietnam"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Haiphong, Hải Phòng, Vietnam"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Halifax, Nova Scotia"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hamilton, Ohio"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hangzhou, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hanoi, Vietnam"
+                },
+                {
+                    "v": 7
+                },
+                {
+                    "v": 12
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hastings, Minnesota"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hefei, China"
+                },
+                {
+                    "v": 5
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ho Chi Minh City, Vietnam"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hobart, Tasmania"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Homestead, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hong Kong"
+                },
+                {
+                    "v": 9
+                },
+                {
+                    "v": 7
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Honolulu, Hawaii"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hot Springs, Arkansas"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Houston, Texas"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hsinchu, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hualien City"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hung Yen, Hưng Yên, Vietnam"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Huwei, T'Ai-Wan, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hvide Sande, Ringkobing, Denmark"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Hạ Long"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Indian Harbour Beach, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ithaca, New York"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Jacksonville, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Jersey City, New Jersey"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Jinan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Jumilla"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kaohsiung, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kawagoe-shi, Saitama, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kawasaki-shi, Kanagawa, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Keelung, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kingston upon Hull"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kingston, Ontario"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kirkland, Washington"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kitakyushu-shi, Fukuoka, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Komaki-shi, Aichi, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kowloon, Hong Kong"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Kuala Lumpur, Malaysia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "La Jolla, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Lawrenceville, New Jersey"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "London, Ontario"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "London, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Los Angeles, California"
+                },
+                {
+                    "v": 11
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Louisville, Kentucky"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Luanda, Angola"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Lyon, France"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Macao, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Madison, Wisconsin"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Madrid, Spain"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Manchester, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Manhattan, New York"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Melbourne, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Melbourne, Victoria, Australia"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Menlo Park, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Metz, France"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Miaoli City"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Miaolihsien, T'Ai-Wan, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Milan, Italy"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Minneapolis, Minnesota"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Mitaka, Tokyo, Japan"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Mont-Saint-Aignan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Moreno Valley, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Morris, Minnesota"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Mountain View, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Mumbai, Maharashtra, India"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Munich, Germany"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Musashino, Tokyo, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nagoya-shi, Aichi, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nairobi, Kenya"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nanjing, China"
+                },
+                {
+                    "v": 14
+                },
+                {
+                    "v": 8
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nanjing, Jiangxi, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nanjingjiazhuang, Jiangsu, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nantong"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nashville, Tennessee"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nerima-ku, Tokyo, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "New Delhi, India"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "New Haven, Connecticut"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "New York, New York"
+                },
+                {
+                    "v": 14
+                },
+                {
+                    "v": 5
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Newberg, Oregon"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Newport Beach, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Newport, New Jersey"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nishinomiya-shi, Hyogo, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "North Hollywood, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Nottingham, United Kingdom"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Oakland, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Oakman, Alabama"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ocala, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Orlando, Florida"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ormond Beach, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Osnabrück, Germany"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ottawa, Ontario"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Palo Alto, California"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Panchkula, India"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Paris, France"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Parsippany, New Jersey"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Petaling Jaya, Malaysia"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Philadelphia, Pennsylvania"
+                },
+                {
+                    "v": 9
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Phoenix, Arizona"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Piscataway, New Jersey"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Pittsburgh, Pennsylvania"
+                },
+                {
+                    "v": 5
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Plano, Texas"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Pleasant Hill, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Portland, Oregon"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Prague, Czech Republic"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Pullman, Washington"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Pune, Maharashtra"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Punta Alta"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Queens, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Raleigh, North Carolina"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Redmond, Washington"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Richardson, Texas"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Ringkøbing"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Rochester, New York"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Rouen, France"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Saint Paul, Minnesota"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Saint Petersburg, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Salt Lake City, Utah"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "San Diego, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "San Francisco, California"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 7
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "San Jose, California"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "San Mateo, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "San Ramon, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Santa Barbara, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Santa Clara, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sapporo-shi, Hokkaido, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Satellite Beach, Florida"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Schaumburg, Illinois"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Seattle, Washington"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Segamat"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Seoul, Korea"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Seremban"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sha Tin, Hong Kong"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Shanghai, China"
+                },
+                {
+                    "v": 7
+                },
+                {
+                    "v": 8
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Shaoxing"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sheffield"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Shenzhen, Guangdong"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sherman Oaks, California"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Silver Spring, Maryland"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Singapore, Singapore"
+                },
+                {
+                    "v": 8
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Somerset, New Jersey"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Songjiang, Shanghai, China"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "St. Louis"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Stafford, Virginia"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Stanford, California"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "State College, Pennsylvania"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 5
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Stony Brook, New York"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Storrs, Connecticut"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sunnyvale, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Suwa-shi, Nagano, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Suwon"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Sydney, Australia"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Syracuse, New York"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Taichung, Taiwan"
+                },
+                {
+                    "v": 26
+                },
+                {
+                    "v": 14
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tainan, Taiwan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Taipei"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Taipei, Taiwan"
+                },
+                {
+                    "v": 9
+                },
+                {
+                    "v": 11
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Taito-ku, Tokyo, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tallahassee, Florida"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 3
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tamamura-machi Sawa-gun, Gunma, Japan"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tampa, Florida"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Taoyuan City"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tay Ho, Ha Noi, Vietnam"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tempe, Arizona"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tokushima-shi, Tokushima, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Toronto, Ontario"
+                },
+                {
+                    "v": 4
+                },
+                {
+                    "v": 5
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Troy, New York"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tsukuba-shi, Ibaraki, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tucson, Arizona"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tulsa, Oklahoma"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Turin, Italy"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tuscaloosa, Alabama"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Tübingen, Germany"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Union City, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Urbana, Illinois"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Vancouver, British Columbia"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 2
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Vinh"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 7
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Washington, District of Columbia"
+                },
+                {
+                    "v": 5
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Watford City, North Dakota"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "West Hollywood, California"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "West Lafayette, Indiana"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 4
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "West Palm Beach, Florida"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "West Richland, Washington"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Wichita, Kansas"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Winter Park, Florida"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Worcester, Massachusetts"
+                },
+                {
+                    "v": 5
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Wuhan, China"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Xi'an, China"
+                },
+                {
+                    "v": 2
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Xuhui, Shanghai"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Xuzhou"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "York, United Kingdom"
+                },
+                {
+                    "v": 1
+                },
+                {
+                    "v": 0
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Yoshinogawa-shi, Tokushima, Japan"
+                },
+                {
+                    "v": 0
+                },
+                {
+                    "v": 1
+                }
+            ]
+        },
+        {
+            "c": [
+                {
+                    "v": "Yünlin, T'Ai-Wan, Taiwan"
+                },
+                {
+                    "v": 3
+                },
+                {
+                    "v": 1
+                }
+            ]
+        }
+    ]
+}
